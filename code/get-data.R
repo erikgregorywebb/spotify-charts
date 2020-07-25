@@ -35,4 +35,4 @@ spotify = raw %>%
   select(-`<html>`) %>%
   rename(Track = `Track Name`, Date = date)
 
-write_csv(spotify, 'spotify-charts-daily-all-clean.csv')
+write_csv(spotify, 'spotify-charts-daily-clean.csv')
